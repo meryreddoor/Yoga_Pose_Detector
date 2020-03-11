@@ -132,3 +132,5 @@ dmypy.json
 venv/
 .ipynb_checkpoints
 __pycache__
+.real_pics
+.img
