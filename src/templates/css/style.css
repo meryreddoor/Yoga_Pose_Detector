@@ -1,0 +1,104 @@
+body {
+    padding-left: 11em;
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif;
+    color: #42BA70;
+    background-color: #FFFFFF}
+
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    font-size:38px }
+  h3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    
+    color: rgb(11, 94, 30) }
+  h4 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    color: #5B5959 }
+  h5 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    color: rgb(11, 94, 30) ; }
+  h6 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    color:  #5B5959 ; }
+  p {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+    color: #5B5959;
+    margin-bottom:50px }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color:  #5B5959;
+    font-size:10px;
+    font-weight: bold;}
+  a:visited {
+    color: #5B5959 }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+  table, th, td {
+    border: 0.5px solid #5B5959;
+    text-align: center;
+    color:  rgb(255, 251, 251);
+    width: 10px;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+  border-radius: 10px;
+  background-color: rgba(117, 185, 68, 0.452);
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;  
+  padding: 10px 20px; 
+  font-size: 0.8em; 
+  position: static;
+}
+
+.inputfile:focus + label,
+
+.inputfile + label:hover {
+  background-color: #42BA70;
+}
+
+.inputfile + label {
+    cursor: pointer; /* "hand" cursor */
+}
+
+.inputfile:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
