@@ -132,5 +132,7 @@ dmypy.json
 venv/
 .ipynb_checkpoints
 __pycache__
+
+# carpetas
 .real_pics
 .img
