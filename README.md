@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/meryreddoor/yogagame_/blob/primeraRama/src/templates/img/paisaje.png)
 
-Yoga Pose Destector es una app  de machine learning desarrollado en `Python` con el `el modelo CNN (Convolutional Neural network)` de `Keras` para ayudar a las personas con poco tiempo a mejorar sus posturas de yoga.
+Yoga Pose Detector es una app  de machine learning desarrollado en `Python` con un ` modelo CNN (Convolutional Neural network)` de `Keras` para ayudar a las personas con poco tiempo a mejorar sus posturas de yoga.
 
 La idea parte de un dataset de `GitHub` con más de un 1GB en imágenes donde se muestran diferentes posturas de yoga. 
 `Yoga Pose Detector` es capaz de sacar el `Accuracy` de una postura concreta de yoga.
@@ -31,11 +31,11 @@ Finalmente integré el modelo predictivo en una api desarrollada con `Flask` en 
 
 Primero, tenemos que hacer una foto, recortarla y subirla a la App:
 
-![alt text](https://github.com/cprietosegura/Breast-Cancer-Detector-Model/blob/master/notebooks/api_bcd.jpg)
+![alt text](https://github.com/meryreddoor/yogagame_/blob/primeraRama/src/templates/img/primera_img.png)
 
 Una vez cargada la imagen, se envía la consulta y devuelve el diagnóstico:
 
-![alt text](https://github.com/cprietosegura/Breast-Cancer-Detector-Model/blob/master/notebooks/api_bcd_diagnosis.jpg)
+![alt text](https://github.com/meryreddoor/yogagame_/blob/primeraRama/src/templates/img/segunda_img_web.png)
 
 ## Fuentes
 
