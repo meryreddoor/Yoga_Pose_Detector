@@ -1,7 +1,6 @@
 import json
 from keras.models import load_model
 from keras.models import model_from_json
-#from tensorflow.keras.models import model_from_json
 import cv2
 import numpy as np
 import glob
@@ -14,11 +13,11 @@ def prediction_pose(path):
     ''' Recognice the food in a given image '''
 
     # loading the model
-    model_json = open('./modelos/model_json.json', 'r')
+    model_json = open('../modelos/model_json.json', 'r')
     loaded_model = model_json.read()
     model_json.close()
     model = model_from_json(loaded_model)
-    model.load_weights("./modelos/model_h5.h5")
+    model.load_weights("../modelos/model_h5.h5")
 
     # image preprocessing - pasarlo a DF, cambiarle el color y el tamaño
 
@@ -51,6 +50,6 @@ def prediction_pose(path):
     print('')
     clases = ['ardha matsyendrasana', 'bakasana', 'bitilasana',
               'chaturanga dandasana', 'garudasana', 'vriksasana']
-    return(f'Probability: {max(pred)}--> {clases[np.argmax(pred)]}')
+    print(f'Probability: {max(pred)}--> {clases[np.argmax(pred)]}')
+    return clases[np.argmax(pred)], max(pred)
 
-'''prediction_pose("./real_pics/bakasana.png")'''

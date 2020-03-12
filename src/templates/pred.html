@@ -4,29 +4,34 @@
 <head>
     <title>Posturas de Yoga</title>
     <link href="css/style.css" rel="stylesheet">
-    <img src="img/postura.png">
+    <div align="center"><img src="img/postura_rio.png"></div>
+    <h1 align="center"> Yoga Pose Detector </h1>
+    <h4 align="center"> ¿Sabes si tu postura es óptima? <br />
+        ¡Aquí podrás averiguarlo! </h4>
 </head>
 
+<div class="jumbotron">
 
-<body>
-    <div class="container">
-        <div class="header">
-            <nav>
-                <ul class="nav nav-pills pull-right">
+    <body>
+        <div class="container">
+            <div class="header">
+                <nav>
+                    <ul class="nav nav-pills pull-right">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <table align="center" width="10000" border="1">
+                <tr>
+                    <th align="center" bgcolor="#828282">Pose</th>
+                    <th align="center" bgcolor="#828282">Prediction</th>
+                </tr>
 
-                    </li>
-                </ul>
-            </nav>
-            <h4 class="text-muted">Posturas de Yoga - Prediccion</h4>
-        </div>
-        <table style="width:20%">
-            <tr>
-                <th> bgcolor="#42BA70">{{ prediction['Posturas de Yoga - Prediccion']}}</th>
-            </tr>
-        </table>
-        <h6>Posturas de Yoga - sabes cuál es la postura? <br />
-            La posicion del yoga optima.</h6>
-        <img src="./img/postura.png">
-</body>
+                <tr align="center">
+                    <td align="center" bgcolor="#228B22"> {{prediction}}</td>
+                    <td align="center" bgcolor="#228B22"> {{probability}}</td>
+                </tr>
+            </table>
+    </body>
 
 </html>
