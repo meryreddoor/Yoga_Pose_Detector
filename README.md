@@ -41,4 +41,6 @@ Una vez cargada la imagen, se envía la consulta y devuelve el diagnóstico:
 
 A continuación se muestran las fuentes que se han utilizado durante el trabajo:
 
-- [Dataset](https://github.com/DhruvJawalkar/yoga-poses-dataset)
+- [Dataset](https://github.com/DhruvJawalkar/yoga-poses-dataset) - Dataset usado para entrenar el modelo.
+
+- [Artículo sobre CNN](https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5) - Artículo sobre CNN
