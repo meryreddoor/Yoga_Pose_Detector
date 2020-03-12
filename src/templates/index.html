@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>YogaGame - Best Positions</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <img src="img/paisaje.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Machine Learning App</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Yoga Pose Detector</h1>
+            <p class="lead"></p>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Esta App está hecha para ayudar a las personas con poco tiempo pero que quieren mejorar <br />
+                    sus posturas de yoga para combatir el estrés del día a día.</h4>
+                <p>¿Buscando una técnica que mejore tu estado físico, mental y emocional para afrontar tus retos?.<br />
+                    ¡Esta App te ayudará a mejorar tu postura de manera inmediata!.<br />
+                    El procedimiento es muy fácil:<br />
+                    <br />
+                    1. Hazte una foto con tu pose.<br />
+                    2. Súbela a nuestra aplicación.<br />
+                    3. Te mostraremos cuál es tu puntuación.<br />
+                </p>
+                <h5>INSERTE SU POSTURA DE YOGA AQUÍ </h5>
+                <form action="/upload" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="file" id="file" class="inputfile" />
+                    <label for="file">Cargar Imagen</label>
+                    <input type="submit" name="submit" id="submit" class="inputfile" />
+                    <label for="submit">Comprobación de la postura</label>
+                </form>
+                <h5> Yoga para todos </h5>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <p>&copy; Maria Roig Porta | 2020</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
