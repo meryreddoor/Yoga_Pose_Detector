@@ -18,7 +18,6 @@ Organicé el dataset de imágenes, tratando las imágenes con las librerías `Nu
 1. `Conv2D` 
 2. `MaxPooling2D`
 3. `Dropout`
-4. `Flatten`
 
 La clase que utilicé fue `Sequential` y usé `Flatten` para aplanar los datos.
 
