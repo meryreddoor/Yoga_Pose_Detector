@@ -4,7 +4,7 @@
 
 Yoga Pose Detector es una app  de `deep learning` desarrollado en `Python` con un ` modelo CNN (Convolutional Neural network)` de `Keras` para ayudar a las personas con poco tiempo a mejorar sus posturas de yoga.
 
-La idea parte de un dataset de `GitHub` con más de un 1GB en imágenes donde se muestran diferentes posturas de yoga. 
+La idea parte de un dataset de `GitHub` con más de un 1GB en imágenes donde se muestran diferentes posturas de yoga.   
 `Yoga Pose Detector` es capaz de sacar el `Accuracy` de una postura concreta de yoga.
 
 ## Preparación de las imágenes
